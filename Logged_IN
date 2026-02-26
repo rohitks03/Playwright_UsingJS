@@ -1,0 +1,17 @@
+let IsloggedIN = true;
+let UserRole = "Editor";    
+
+if (IsloggedIN)
+{
+    if(UserRole === "Admin"){
+        console.log("Welcome Admin, you have full access.");
+    }else if(UserRole === "Editor"){
+        console.log("Welcome Editor, you can edit content.");
+    }else if(UserRole === "Viewer"){
+        console.log("Welcome Viewer, you can view content.");
+    }else{
+        console.log("Welcome User, your role is undefined.");
+    }
+}else{
+    console.log("Please log in to access the system.");
+}

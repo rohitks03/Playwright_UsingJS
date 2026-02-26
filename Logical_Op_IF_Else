@@ -1,0 +1,11 @@
+let username = "Dev";
+let password = "12345";
+let IsAccountLocked = false;    
+
+if (username === "Dev" && password === "12345" && !IsAccountLocked  ) {
+    console.log("Login successful. Welcome, Dev!");
+} else if (IsAccountLocked) {
+    console.log("Your account is locked. Please contact support.");
+} else {
+    console.log("Login failed. Please check your username and password.");
+}

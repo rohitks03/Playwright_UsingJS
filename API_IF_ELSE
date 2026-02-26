@@ -1,0 +1,13 @@
+let statuscode = 200;
+
+if (statuscode === 200) {
+    console.log("Success: The request was successful.");
+}else if (statuscode === 400) {
+    console.log("Bad Request: The server could not understand the request.");
+}else if (statuscode === 401) {
+    console.log("Unauthorized: Access is denied due to invalid credentials.");
+}else if (statuscode === 404) {
+    console.log("Not Found: The requested resource could not be found.");
+}else if (statuscode === 500) {
+    console.log("Internal Server Error: The server encountered an error.");
+}

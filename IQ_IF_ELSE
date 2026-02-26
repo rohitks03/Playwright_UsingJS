@@ -1,0 +1,12 @@
+//True
+if("Hello") console.log("String is truthy");
+if(42) console.log("Number is truthy");
+if({}) console.log("Object is truthy");
+if([]) console.log("Array is truthy");
+
+//False 
+if(false) console.log("This is false");
+if(0) console.log("Number 0 is false");
+if(null) console.log("Null is false");
+if(undefined) console.log("Undefined is false");
+if("") console.log("Empty string is false");
